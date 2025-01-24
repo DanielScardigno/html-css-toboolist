@@ -10,6 +10,10 @@
     background-color: white;
 }
 
+.dotless-list {
+    list-style-type: none;
+}
+
 .special-text {
     display: inline-block;
     font-size: 17px;
@@ -95,7 +99,6 @@ body {
 }
 
 .list-item {
-    list-style-type: none;
     font-size: 25px;
     font-weight: 100;
     margin-top: 20px;
