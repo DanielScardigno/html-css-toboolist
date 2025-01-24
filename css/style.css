@@ -9,6 +9,26 @@
 .white-bg {
     background-color: white;
 }
+
+.special-text {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.mark {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+
+.tag {
+    border-radius: 20px;
+    color: white;
+    padding:7px 20px;
+}
 /* end utility */
 
 body {
@@ -35,6 +55,7 @@ body {
 /* actions */
 .actions {
     padding: 15px 80px;
+    border-radius: 10px 10px 0 0;
 }
 
 .button {
@@ -54,5 +75,41 @@ body {
 }
 /* end actions */
 
+/* tasks */
+.tasks {
+    margin-top: 5px;
+    padding: 65px 80px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(60, 60, 60);
+}
+
+.list-item {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+/* marks */
+.checkmark {
+    color: rgb(113, 207, 176);
+    border: 1px solid rgb(113, 207, 176);
+}
+
+.crossmark {
+    color: red;
+    border: 1px solid red;  
+}
+/* end marks */
+
+/* tags */
+.editorial {
+    background-color: rgb(0, 174, 255);
+}
+/* end tags */
+
+/* end tasks */
 
 /* end main */
