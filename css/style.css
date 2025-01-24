@@ -4,3 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: aliceblue;
+}
+
+/* header */
+.header {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 390px;
+}
+/* end header */
