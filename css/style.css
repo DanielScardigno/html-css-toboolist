@@ -29,6 +29,10 @@
     color: white;
     padding:7px 20px;
 }
+
+.bottom-padding {
+    padding-bottom: 65px;
+}
 /* end utility */
 
 body {
@@ -83,6 +87,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: rgb(60, 60, 60);
+    border-radius: 0 0 10px 10px;
 }
 
 .subsection {
